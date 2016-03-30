@@ -8,6 +8,5 @@ cd $1
 # https://devcenter.heroku.com/articles/buildpack-api#bin-compile
 # RAILS_ENV=$(cat $3/RAILS_ENV) bundle exec rake webpack:compile --trace
 
-pwd
 npm run webpack
 npm run sass

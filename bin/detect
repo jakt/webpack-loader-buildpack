@@ -2,7 +2,6 @@
 
 # valid if the node_modules is present
 if [ -d $1/node_modules ]; then
-  ls $1/node_modules
   echo "Found node_modules"
   exit 0
 fi
